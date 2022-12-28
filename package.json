@@ -1,0 +1,32 @@
+{
+  "name": "alpinezy-api",
+  "version": "1.0.0",
+  "description": "API of Alpinezy App",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayoCompagnie/api.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Alpinezy"
+  ],
+  "author": "Mayo56",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MayoCompagnie/api/issues"
+  },
+  "homepage": "https://github.com/MayoCompagnie/api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.8.0",
+    "socket.io": "^4.5.4",
+    "ts-node": "^10.9.1"
+  }
+}
